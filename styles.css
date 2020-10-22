@@ -1,0 +1,251 @@
+body,html
+{
+	height: 100%;
+	font-family: 'Lato';
+}
+
+.bg
+{
+	height: 100%;
+	/*background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 1)),url("../images/index.jpg");*/
+	background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 1)),url("../images/index2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.row div a
+{
+	color: white;
+	font-size: 20px;
+	/*font-family: 'Lato';*/
+}
+
+a:hover
+{
+	text-decoration: none;
+	font-style: italic;
+}
+
+#login, #sign
+{
+	/*color: white;*/
+	color: #DAA520;
+}
+
+#main-container
+{
+	height: 5%;
+}
+
+.index-container
+{
+	height: 80%;
+}
+
+#pname h1
+{
+	padding-top: 60px;
+}
+
+h1
+{
+	font-size: 60px;
+	/*color: #FFEBCD;*/
+/*	color: #D4AF37;*/
+    color: 	#FF9900;
+	/*color: white;*/
+	tet-decoration: underline;
+	text-shadow: 3px 4px black;
+	font-family: 'Comic Sans MS';
+}
+
+cite
+{
+/*	color: white;*/
+	color: #DAA520;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.index-container .row
+{
+	height: 50%;
+}
+
+.dropdown-menu
+{
+	width: 18em;
+	height: 18em;
+}
+
+.modal:before
+{
+    content: "";
+    display: inline-block; 
+    height: 20%; 
+    vertical-align: middle; 
+}
+
+.dialog-modal
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.submit
+{
+    margin: auto;
+   background-color: #4CAF50;
+   border: none;
+   color: white;
+   border-radius: 6px;
+   text-align: center;
+   font-size: 16px;
+}
+
+#home-btn
+{
+	padding-top: 35px;
+}
+
+#restaurant
+{
+	font-size: 14px;
+	color: white;
+	background-color: white;
+	font-family: 'Lucida Console';
+	border-width: 0.5px;
+	border-color: black;
+	width: 60%;
+}
+
+/*#Loc
+{
+        padding_top: 30px;
+}
+*/
+#Loc
+{
+    font-size: 14px;
+	color: black;
+	background-color: white;
+	font-family: 'Lucida Console';
+	border-top-left-radius: 0.5em; 
+	border-bottom-left-radius: 0.5em;
+	border-width: 1px;
+	border-color: black;
+	width: 25%;
+}
+
+#search
+{
+	background-color: #ffa100;
+   border-top-right-radius: 0.5em; 
+   border-bottom-right-radius: 0.5em;
+   border-color: black;
+   width: 10%;
+}
+
+#logo1
+{
+	width: 44%;
+	height: 80%;
+	margin-top: 2.5em;
+}
+
+#slogan-container
+{
+	height: 5%;
+}
+
+.slogan
+{
+	font-size: 18px;
+	/*color: floralwhite;*/
+	color: #DAA520;
+	/*font-family: 'Lato';*/
+	font-style: italic;
+}
+
+#sign-modal .modal-body label
+{
+	font-size: 18px;
+}
+
+.modal-header, .card-header
+{
+	background-color: #D4AF37;
+	color: floralwhite;
+}
+
+.close
+{
+	color: floralwhite;
+}
+
+.jumbotron
+{
+	min-height: 300px;
+	background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../images/homejumbo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#loginButton, nav a, nav a:hover
+{
+	color: white;
+	font-size: 18px;
+}
+
+#search-form label
+{
+	font-size: 18px;
+	background-color: #F5DEB3;
+}
+
+nav
+{
+	background-color: rgba(0,0,0,0.6);
+}
+
+#social
+{
+	min-height: 120px;
+}
+
+.footer
+{
+	background-color: #FFF8DC;
+}
+
+#social span
+{
+	font-size: 16px;
+}
+
+#social a
+{
+	color: black;
+	font-size: 18px;
+}
+
+#about p, .media-body p
+{
+	font-size: 20px;
+}
+
+.aboutcontent
+{
+	min-height: 300px;
+}
+
+.card
+{
+	min-height: 250px;
+}
+
+.card-header
+{
+	font-size: 18px;
+}
